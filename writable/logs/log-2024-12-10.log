@@ -1,0 +1,82 @@
+CRITICAL - 2024-12-10 04:27:08 --> Error: Object of class App\Models\UserModel could not be converted to string
+[Method: GET, Route: fetch-data]
+in APPPATH\Controllers\MultistepController.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MultistepController->fetchData()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MultistepController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\komal\\Codeigniter\\MultiForm\\public\\index.php')
+CRITICAL - 2024-12-10 04:27:08 --> Error: Object of class App\Models\UserModel could not be converted to string
+[Method: GET, Route: fetch-data]
+in APPPATH\Controllers\MultistepController.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MultistepController->fetchData()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MultistepController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\komal\\Codeigniter\\MultiForm\\public\\index.php')
+CRITICAL - 2024-12-10 04:29:36 --> Error: Object of class App\Models\UserModel could not be converted to string
+[Method: GET, Route: fetch-data]
+in APPPATH\Controllers\MultistepController.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MultistepController->fetchData()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MultistepController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\komal\\Codeigniter\\MultiForm\\public\\index.php')
+CRITICAL - 2024-12-10 04:29:36 --> Error: Object of class App\Models\UserModel could not be converted to string
+[Method: GET, Route: fetch-data]
+in APPPATH\Controllers\MultistepController.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MultistepController->fetchData()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MultistepController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\komal\\Codeigniter\\MultiForm\\public\\index.php')
+CRITICAL - 2024-12-10 04:29:47 --> Error: Object of class App\Models\UserModel could not be converted to string
+[Method: GET, Route: fetch-data]
+in APPPATH\Controllers\MultistepController.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MultistepController->fetchData()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MultistepController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\komal\\Codeigniter\\MultiForm\\public\\index.php')
+CRITICAL - 2024-12-10 04:29:48 --> Error: Object of class App\Models\UserModel could not be converted to string
+[Method: GET, Route: fetch-data]
+in APPPATH\Controllers\MultistepController.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MultistepController->fetchData()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MultistepController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\komal\\Codeigniter\\MultiForm\\public\\index.php')
+CRITICAL - 2024-12-10 04:30:57 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::or_like()
+[Method: GET, Route: fetch-data]
+in APPPATH\Models\UserModel.php on line 15.
+ 1 APPPATH\Controllers\MultistepController.php(105): App\Models\UserModel->get_users('3', '0', '')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MultistepController->fetchData()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MultistepController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\komal\\Codeigniter\\MultiForm\\public\\index.php')
+CRITICAL - 2024-12-10 04:30:57 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::or_like()
+[Method: GET, Route: fetch-data]
+in APPPATH\Models\UserModel.php on line 15.
+ 1 APPPATH\Controllers\MultistepController.php(105): App\Models\UserModel->get_users('3', '0', '')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MultistepController->fetchData()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MultistepController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\komal\\Codeigniter\\MultiForm\\public\\index.php')
